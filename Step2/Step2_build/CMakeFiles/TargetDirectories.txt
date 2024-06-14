@@ -1,0 +1,4 @@
+C:/Users/phill/Desktop/cmake-3.30.0-rc1-tutorial-source/Step2/Step2_build/CMakeFiles/Tutorial.dir
+C:/Users/phill/Desktop/cmake-3.30.0-rc1-tutorial-source/Step2/Step2_build/CMakeFiles/ALL_BUILD.dir
+C:/Users/phill/Desktop/cmake-3.30.0-rc1-tutorial-source/Step2/Step2_build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/phill/Desktop/cmake-3.30.0-rc1-tutorial-source/Step2/Step2_build/MathFunctions/CMakeFiles/MathFunctions.dir

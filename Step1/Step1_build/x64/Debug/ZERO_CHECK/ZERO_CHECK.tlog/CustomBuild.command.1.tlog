@@ -1,0 +1,10 @@
+^C:\USERS\PHILL\DESKTOP\CMAKE-3.30.0-RC1-TUTORIAL-SOURCE\STEP1\STEP1_BUILD\CMAKEFILES\C18E538F45140274E8E4BEC68624662C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/phill/Desktop/cmake-3.30.0-rc1-tutorial-source/Step1 -BC:/Users/phill/Desktop/cmake-3.30.0-rc1-tutorial-source/Step1/Step1_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/phill/Desktop/cmake-3.30.0-rc1-tutorial-source/Step1/Step1_build/Tutorial.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

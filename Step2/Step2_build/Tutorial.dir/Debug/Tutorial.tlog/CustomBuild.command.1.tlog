@@ -1,0 +1,10 @@
+^C:\USERS\PHILL\DESKTOP\CMAKE-3.30.0-RC1-TUTORIAL-SOURCE\STEP2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/phill/Desktop/cmake-3.30.0-rc1-tutorial-source/Step2 -BC:/Users/phill/Desktop/cmake-3.30.0-rc1-tutorial-source/Step2/Step2_build --check-stamp-file C:/Users/phill/Desktop/cmake-3.30.0-rc1-tutorial-source/Step2/Step2_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
